@@ -10,7 +10,7 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (retain) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
