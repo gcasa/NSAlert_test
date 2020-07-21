@@ -24,5 +24,11 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)showAlert:(id)sender {
+    NSAlert *alert = [[NSAlert alloc] init];
+    alert.messageText = @"Test";
+    alert.informativeText = @"Testing...";
+    [alert runModal];
+}
 
 @end
